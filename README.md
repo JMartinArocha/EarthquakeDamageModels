@@ -56,6 +56,11 @@ This section of the code handles the data splitting process essential for model 
 
 In this section, the code demonstrates the use of LazyPredict to automate the process of fitting multiple models and comparing their performance. LazyPredict is a library that provides tools to quickly compare a wide range of machine learning models, making it easier to identify which models perform best for your specific dataset without the need for detailed configuration for each model initially. The code is structured to handle both classification and regression tasks, with output that includes the performance metrics of each model. This allows for a broad comparison across different types of algorithms in a concise manner.
 
+## Automated Model comparison with PyCaret
+
+
+PyCaret is an open-source, low-code machine learning library in Python that allows for building and comparing multiple machine learning models with just a few lines of code. It includes a wide range of algorithms for regression, classification, and clustering, and also supports deep learning models. PyCaret includes tools for data preprocessing, feature engineering, hyperparameter tuning, and model interpretation.
+
 ## Training - CrossValidation, RandomSearch y GridSearch
 
 This section of the code illustrates advanced model optimization techniques using the AdaBoost algorithm. It employs RandomizedSearchCV to explore a wide range of parameter combinations quickly and GridSearchCV to refine the search within a more targeted parameter space. Both methods aim to find the optimal settings for the AdaBoost regressor. The final step involves evaluating the best model using cross-validation, which provides an unbiased estimation of the model's performance on unseen data. These methods collectively enhance the model's ability to generalize, ensuring robust predictions.
