@@ -1,0 +1,5 @@
+EarthquakeDamageModels
+.vscode
+data
+__pycache__
+.DS_store
